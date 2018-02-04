@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.paung.coffeshop.MainActivity">
+
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="@string/plus"
+        android:id="@+id/btn_add"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_view_number"
+        android:text="@string/zero"
+        android:textSize="40sp"
+        />
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="@string/min"
+        android:id="@+id/btn_min"/>
+
+</LinearLayout>
